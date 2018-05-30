@@ -1,3 +1,10 @@
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+
 logo: /uploads/avatar.jpg
 rss: /atom.xml
 disqus: welsonla
