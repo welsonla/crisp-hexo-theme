@@ -25,7 +25,7 @@
 html, body {
 	font-size: 1em;
 	line-height: 1.65em;
-	font-family: "Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 	font-weight: 300;
 	color:#444;
 }
@@ -67,11 +67,11 @@ p, hr, h4, h5, h6 {
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Bree Serif", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", serif;
-	font-weight: 400 !important;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+	font-weight: 500 !important;
 }
 h1 {
-	font-size: 2.2em;
+	font-size: 2em;
 	line-height: 1.1em;
 	margin-top: 0.6em;
 	margin-bottom: 0.6em;
@@ -83,19 +83,19 @@ h2 {
 	margin-bottom: 0.7em;	
 }
 h3 {
-	font-size:1.4em;
-	line-height: 1.3em;
+	font-size:1.2em;
+	line-height: 1em;
 	margin-top: 0.8em;
 	margin-bottom: 0.8em;	
 }
 h4 {
-	font-size:1.3em;
+	font-size:1.1em;
 }
 h5 {
-	font-size:1.2em;
+	font-size:1.0em;
 }
 h6 {
-	font-size:1.1em;
+	font-size:1.0em;
 }
 /* Page Elements */
 img, iframe {
@@ -130,7 +130,7 @@ ul, ol {
 }
 code {
 	/*for code highlighting */
-	font-size:1em;
+	font-size:0.9em;
 	background: #eee;
 }
 pre {
