@@ -5,7 +5,7 @@
   
   <span class="separator"> &middot; </span>
   
-  <%= date(post.date, 'MMMM D, YYYY') %>
+  <span class="post-date"><%= date(post.date, 'MMMM D, YYYY') %></span>
   
   <% if (post.tags && post.tags.length){ %>
     <span class="taglist">  &middot; 
