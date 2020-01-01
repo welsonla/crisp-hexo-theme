@@ -11,7 +11,7 @@ A minimalist theme inspired by a [Ghost theme](https://github.com/kathyqian/cris
 ### Install
 
 ``` bash
-$ git clone git@github.com:guolin/crisp-hexo-theme.git themes/crisp
+$ git submodule add  git@github.com:guolin/crisp-hexo-theme.git  themes/crisp
 ```
 
 ### Enable
