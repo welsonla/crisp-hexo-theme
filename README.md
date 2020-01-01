@@ -1,8 +1,8 @@
 # crisp
 
-Preview: [Live Demo](//guolin.github.io)
+This repo is forked from [GuoLin](https://github.com/guolin/crisp-hexo-theme)
+I forked it and maintain for my blog
 
-![hexo-theme-crisp](https://raw.githubusercontent.com/guolin/crisp-hexo-theme/master/screenshot.png)
 
 A minimalist theme inspired by a [Ghost theme](https://github.com/kathyqian/crisp-ghost-theme) of the same name by Kathy Qian.
 
@@ -21,8 +21,7 @@ Modify `theme` setting in `_config.yml` to `crisp`.
 ### Update
 
 ``` bash
-cd themes/crisp
-git pull
+git submodule update
 ```
 
 ## Configuration
